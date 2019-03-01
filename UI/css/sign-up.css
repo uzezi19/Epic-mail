@@ -1,0 +1,43 @@
+img { 
+    height: 2em
+}
+#signup-body{
+    width: 33%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7em;
+    border:  #ffffff ridge
+}
+input[name='year']{
+    width: 3em
+}
+input[name='day']{
+     width: 3em
+}
+input[name='email']{
+      width: 17.2em
+}
+input[name='password']{
+      width: 17.2em
+}
+input[type='submit']{
+     margin-left: 3.5em;
+     background-color:  navy;
+     color: white
+}
+input[name='phone-number']{
+     width: 17.2em
+}
+p{
+    margin-left: 3em
+}
+#signup-body img{
+    margin-top: 0.6em;
+    margin-left: 36%;
+    margin-right: auto
+}
+a{
+    margin-left: 3em;
+    text-decoration: none;
+    color: blue
+}
