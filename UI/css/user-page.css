@@ -1,0 +1,48 @@
+#main-content{ 
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    
+}
+#top-content{
+    height: 40px;
+    background-color:  darkgreen
+}
+#top-content p{
+    margin-left: 80%;
+    color: white;
+    padding-top: 0.7em
+}
+img { 
+    height: 2em
+}
+#left-side{
+    border:  black;
+    margin-top: 0.5em;
+    width: 6em;
+    text-align:  center;
+    height: auto;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+#inbox a{
+    background-color: darkgreen;
+    color: white
+}
+#sent a{
+    color: black
+}
+#draft a{
+    background-color: darkgreen;
+    color: white
+}
+#compose a{
+    color: black
+}
+#content-area{
+    margin-left: 1em;
+    margin-top: -5.7em
+}
