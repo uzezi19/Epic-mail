@@ -1,27 +1,22 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Epic Mail</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		</head>
     <body>
-       <div id="header"><img src="images/site-logo1.png"/></div>
-        <div id="main-content">
-            <div id="top-content"><p><b>Welcome: User</b></p></div><table>
-                <tr><td>  <div id="left-side">
-                            <div id="inbox"><a href="#">Inbox</a></div>
-                            <div id="sent"><a href="#">Sent</a></div>
-                            <div id="draft"><a href="#">Draft</a></div>
-                            <div id="compose"><a href="#"> Compose </div>
-                            <br><br><br><br>
-                            GROUPS<br>
-                            group 1<br>
-                            group 2<br>
-                            group 3
-                        </div></td>
-                        <td>
-                            <div id="content-area"><b>No sent mail</b></div> 
-                        </td></tr></table>
+        <div id="header"><img src="images/site-logo1.png"/></div>
+        <div id="login-body"><form>
+                    <img src="images/site-logo1.png"/><br>
+                    <p> <label for="username">Username:</label><br>
+                    <input name="username" type="text" autofocus required/><p>
+                    <p><label for="password">Password:</label><br>
+                        <input name="password" type="text" required/></p>
+                    <input type="submit" value="Login"/>   
+                </form><br><a href="password-reset.html">Forgot Password?</a>
+                <a href="#">Need help?</a><br><br>
+                <a id="signup" href="sign-up.html">Sign up</a>
         </div>
     </body>
 </html>
+		
